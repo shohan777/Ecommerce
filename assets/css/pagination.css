@@ -1,0 +1,43 @@
+#pagination{
+    width:100%;
+	float:left;
+	height:auto;
+}
+
+.tsc_pagination ul 
+{ 
+    margin:5px;
+    padding:0px; 
+    height:auto;
+    overflow:hidden; 
+    list-style-type:none; 
+}
+.tsc_pagination ul li 
+{
+    padding-bottom:1px;
+}
+.tsc_pagination ul li a 
+{ 
+	width:auto;
+    float:left;
+    border:solid 1px; 
+    padding:3px 8px;
+	font-size:11px;
+	margin:1px;
+	color:#fff;
+	font-size:16px;
+    border-color:#ffcd44; 
+    background:#0e3863; 
+}
+
+.tsc_pagination ul li a:hover,
+.tsc_pagination ul li a.current
+{ 
+    text-shadow:0px 1px #388DBE;
+    border-color:#0e3863; 
+    background:#ffcd44; 
+	text-decoration:none;
+	color:#000;
+    background:-moz-linear-gradient(top, #ffcd44 1px, #ffcd44 1px, #ffcd44);
+    background:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0.02, #ffcd44), color-stop(0.02, #ffcd44), color-stop(1, #ffcd44));
+}
